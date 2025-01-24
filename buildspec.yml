@@ -2,7 +2,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - REPOSITORY_URI=872599169723.dkr.ecr.ap-south-1.amazonaws.com/canary
+      - REPOSITORY_URI=039612865895.dkr.ecr.us-west-2.amazonaws.com/fargate
   pre_build:
     commands:
       - echo Logging starting build ...
