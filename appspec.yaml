@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-west-2:039612865895:task-definition/ecsfar:1" #
+        TaskDefinition: "arn:aws:ecs:us-west-2:039612865895:task-definition/ecsfar:1" 
         LoadBalancerInfo:
           ContainerName: "fargate"
-          ContainerPort: 80
+         # ContainerPort: 80
